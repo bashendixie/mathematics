@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: 高等数学
 ---
 
 This is the **Edition** template from [CloudCannon](http://cloudcannon.com/).
