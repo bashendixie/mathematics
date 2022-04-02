@@ -9,7 +9,7 @@ sitemap: false
 <script>
 	window.data = {
 		{% for item in site.docs %}
-			{% if item.title && item.category %}
+			{% if item.title %}
 				{% unless item.excluded_in_search %}
 					{% if added %},{% endif %}
 					{% assign added = false %}
