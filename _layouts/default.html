@@ -23,8 +23,16 @@
 			</script>
 			<script async src='https://www.google-analytics.com/analytics.js'></script>
 		{% endif %}
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.css" integrity="sha384-A3N+UgNMKg9+LRsC2HUE0ECxFY7qhztVFORxHQZEPm7lnog2poqmm7CQ91wSEnBc" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.js" integrity="sha384-D0gipC03W+lifpletIVjX+11DUvrzNAMhVux0JrrAMt9Ufgu9HcPdS5GxZSDmNxx" crossorigin="anonymous"></script>
+		<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+		<script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				tex2jax: {
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				inlineMath: [['$','$']],
+				displayMath: [["$$", "$$"],["\\[", "\\]"]],
+				}
+			});
+		</script>
 	</head>
 
 	<body>
