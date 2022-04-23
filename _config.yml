@@ -21,7 +21,7 @@ social:
 
 # -----
 # Build
-markdown:markdown
+markdown: markdown
 
 timezone: Etc/UTC
 
